@@ -52,7 +52,7 @@ class deviceController extends Controller
     // }
     public function store(deviceRequest $request)
     {
-        return "1";
+        // return "1";
         $request->validated($request->all());   
 
         $device = Device::create([
